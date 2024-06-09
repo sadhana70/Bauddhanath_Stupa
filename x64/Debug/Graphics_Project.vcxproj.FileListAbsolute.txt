@@ -1,0 +1,3 @@
+D:\Graphics_Project\x64\Debug\Graphics_Project.exe
+D:\GLCoders\x64\Debug\Graphics_Project.exe
+C:\Users\sauja\OneDrive\Documents\Desktop\GLCoders\x64\Debug\Graphics_Project.exe

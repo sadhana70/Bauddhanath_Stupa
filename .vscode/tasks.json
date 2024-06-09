@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-std=c++17",
+                "-I/opt/homebrew/Cellar/glfw/3.4/include",
+                "-I/opt/homebrew/Cellar/glew/2.2.0_1/include",
+               "-I/opt/homebrew/Cellar/assimp/5.4.1/include",
+                "-I${workspaceFolder}/Dependencies/include",
+                "-L/opt/homebrew/Cellar/glfw/3.4/lib",
+                "-L/opt/homebrew/Cellar/glew/2.2.0_1/lib",
+                "-L/opt/homebrew/Cellar/assimp/5.4.1/lib",
+                "-L${workspaceFolder}/Dependencies/lib",
+                "-lglfw",
+                "-lGLEW",
+                "-lassimp",
+                "-framework", "OpenGL",
+                "-framework", "Cocoa",
+                "-framework", "IOKit",
+                "${workspaceFolder}/maincpp.cpp",
+                "${workspaceFolder}/Camera.cpp",
+                "${workspaceFolder}/Light.cpp",
+                "${workspaceFolder}/math.cpp",
+                "${workspaceFolder}/Mesh.cpp",
+                "${workspaceFolder}/Model.cpp",
+                "${workspaceFolder}/Shader.cpp",
+                "${workspaceFolder}/stb_image.cpp",
+                "${workspaceFolder}/glad.c",
+                "-o",
+                "/Users/sadhanapanthi/Bauddha/build/Graphics"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for building the project"
+        }
+    ]
+}

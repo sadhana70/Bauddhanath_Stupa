@@ -1,0 +1,15 @@
+#version 330 core
+in vec2 TexCord;
+
+uniform sampler2D g_texture;
+uniform bool isDark;
+
+out vec4 FragColor;
+void main()
+{
+    if(isDark){
+    FragColor = vec4(0.0); // Assigning black color
+    }
+    else{
+    FragColor = texture(g_texture, TexCord) * 0.5;}
+}
