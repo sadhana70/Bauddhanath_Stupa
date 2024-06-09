@@ -160,6 +160,7 @@
             if (!skip)
             {   // if texture hasn't been loaded already, load it
                 Texture texture;
+                //std::cout << "Loading texture: " << str.C_Str() << " from directory: " << this->directory << std::endl;
                 texture.id = TextureFromFile(str.C_Str(), this->directory);
                 texture.type = typeName;
                 texture.path = str.C_Str();
@@ -176,6 +177,9 @@ unsigned int TextureFromFile(const char* path, const string& directory, bool gam
 {
     string filename = string(path);
     filename = directory + '/' + filename;
+    // Replace backslashes with forward slashes
+    std::replace(filename.begin(), filename.end(), '\\', '/');
+    //std::cout << "Trying to load texture from file: " << filename << std::endl;
 
     unsigned int textureID;
     glGenTextures(1, &textureID);
@@ -205,7 +209,7 @@ unsigned int TextureFromFile(const char* path, const string& directory, bool gam
     }
     else
     {
-        std::cout << "Texture failed to load at path: " << path << std::endl;
+        std::cout << "Texture failed to load at path: " << filename << std::endl;
         stbi_image_free(data);
     }
 
