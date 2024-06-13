@@ -207,7 +207,8 @@ int main()
     glEnableVertexAttribArray(0);
 
     // load models
-    Model DharaharaModel("objects/dharahara/dharaharaSeriousNewScenes.obj");
+    //Model DharaharaModel("objects/dharahara/dharaharaSeriousNewScenes.obj");
+     Model DharaharaModel("objects/dharahara/finaltoran.obj");
     Model LightBulb("objects/dharahara/bulbs.obj");
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
