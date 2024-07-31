@@ -1,12 +1,13 @@
-# 3D Modeling and Rendering of Dharahara and Ghantaghar using OpenGl
+# 3D Modeling and Rendering of Bauddhanath Stupa using OpenGL
 
 ## Introduction
 
 This is a Computer Graphics project done in the fifth semester of computer Engineering by:
 
-- Sandeep Acharya (075BCT074)
-- Sangam Chaulagain (075BCT078)
-- Saujan Tiwari  (075BCT083)
+- Sadhana Panthi (078BCT069)
+- Samikshya Bhusal (078BCT074)
+- Shalu Khebang (078BCT082)
+- Shreya Shrestha (078BCT085)
 
 
 ## Libraries Used
@@ -27,16 +28,16 @@ This is a Computer Graphics project done in the fifth semester of computer Engin
 
 ## How to run
 
-This project is build using visual studio 2019.
+This project is built using Visual Studio.
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 2. Click on run to run the project.
 
-Use A, S, W, D to move around.\
+Use A, S, W, and D to move around.\
 Press Z for day view and X for night view.
 
 In case of linking errors, You probably need to build the libraries yourself.\
-You can use cmake to buid the libraries.
+You can use CMake to buid the libraries.
 
 ### Helpful links
 
