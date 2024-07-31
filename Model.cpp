@@ -1,5 +1,5 @@
 #include "Model.h"
-
+#include "stb_image.h"
    
 
     // constructor, expects a filepath to a 3D model.
