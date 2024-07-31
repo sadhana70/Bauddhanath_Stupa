@@ -99,7 +99,7 @@ int main()
 #endif
 
     // glfw window creation
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Dharahara", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Bauddhanath", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -208,8 +208,8 @@ int main()
 
     // load models
     //Model DharaharaModel("objects/dharahara/dharaharaSeriousNewScenes.obj");
-     Model DharaharaModel("objects/dharahara/finaltoran.obj");
-    Model LightBulb("objects/dharahara/bulbs.obj");
+     Model DharaharaModel("objects/bauddha/finaltoran.obj");
+    Model LightBulb("objects/bauddha/bulbs.obj");
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     
