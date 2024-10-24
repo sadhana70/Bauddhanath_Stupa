@@ -17,14 +17,9 @@ This is a Computer Graphics project done in the fifth semester of computer Engin
 - Assimp
 
 ## Output
+### Day view vs Night view
+<img src="Images/day-view.png" alt="first image" width="500">    <img src="Images/night-view.png" alt="second image" width="500">
 
-### Day View
-
-![](./Images/day-view.png)
-
-### Night View
-
-![](./Images/night-view.png)
 
 ## How to run
 
