@@ -18,7 +18,7 @@ This is a Computer Graphics project done in the fifth semester of computer Engin
 
 ## Output
 ### Day view vs Night view
-<img src="Images/day-view.png" alt="first image" width="500">    <img src="Images/night-view.png" alt="second image" width="500">
+<img src="Images/day-view.png" alt="first image" width="480">    <img src="Images/night-view.png" alt="second image" width="480">
 
 
 ## How to run
